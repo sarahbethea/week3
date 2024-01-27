@@ -1,0 +1,17 @@
+	public static int rectanglePerimeter(int length, int width) {
+		
+		int perimeter = ((length * 2) + (width * 2));
+		
+		return perimeter; 
+		
+		
+	}
+	
+	
+	public static int power(int base, int exponent) {
+		int result = 1;
+		for (int index = 1; index <= exponent; index++) {
+			result = result * base
+		}
+			return result; 
+		
